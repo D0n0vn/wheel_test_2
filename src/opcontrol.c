@@ -38,7 +38,7 @@ void motorSet ( unsigned char channel,  // motor channel to set from 1-10
 void operatorControl() {
   int power, turn;
     while (1) {
-        power = joystickGetAnalog(1, 2); // vertical axis on left joystick
+        power = joystickGetAnalog(1, 2); // vertical axis on left joystick zz
         turn  = joystickGetAnalog(1, 1); // horizontal axis on left joystick
         motorSet(2, power + turn); // set left wheels
         motorSet(3, power - turn); // set right wheels
