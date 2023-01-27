@@ -45,6 +45,6 @@ void operatorControl() {
         motorSet(4, power);
         motorSet(5, power);
         motorSet(6, power);
-        delay(20); //all done !
+        delay(20); //all done ! yo
        }
     }
